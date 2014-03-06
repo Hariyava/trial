@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Page Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery.mobile-1.4.2.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+
+
+	<div data-role="page">
+		
+		<div data-role="panel" id="mypanel">
+			<ul data-role="listview">
+	      			<li><a href="#hit_list" data-ajax="false">Hit List</a></li>
+	      			<li><a href="#free_music" data-ajax="false">Free Music</a></li>
+	      			<li><a href="#find_music" data-ajax="false">Find Music</a></li>
+	      			<li><a href="#my_downloads" data-ajax="false">My Downloads</a></li>
+	      			<li><a href="#user" data-ajax="false">User</a></li>
+	    		</ul>
+	    		<a href="#" data-rel="close" class="ui-btn ui-corner-all ui-shadow ui-mini ui-btn-inline ui-icon-delete ui-btn-icon-left ui-btn-right">Close</a>
+	    		
+		</div>
+
+	
+		<div data-role="header">
+			<a href="#mypanel" class="ui-btn ui-shadow ui-corner-all ui-icon-grid ui-btn-icon-notext ui-btn-inline">Menu</a></a>
+			<h1>Keerthi</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<input type="text" placeholder="User name" />
+			<input type="password" placeholder="Password" />
+			<button>Login</button>
+		</div>
+	</div>
+	
+	<div data-role="page" id="hit_list">
+		<div data-role="header">
+			<h1>hitlist</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<P>hit list songs will be diplayed</P>
+		</div>
+	</div>
+	
+	<div data-role="page" id="free_music">
+		<div data-role="header">
+			<h1>freemusic</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<P>Free songs can be seen here</P>
+		</div>
+	</div>
+	
+	<div data-role="page" id="find_music">
+		<div data-role="header">
+			<h1>findmusic</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<P>songs you want can search here</P>
+		</div>
+	</div>
+	
+	<div data-role="page" id="my_downloads">
+		<div data-role="header">
+			<h1>mydownloads</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<P>downloaded songs will be displayed</P>
+		</div>
+	</div>
+	
+	<div data-role="page" id="user">
+		<div data-role="header">
+			<h1>user</h1>
+		</div>
+		<div role="main" class="ui-content">
+			<P>this is your area</P>
+		</div>
+	</div>
+		
+
+</body>
+</html>
