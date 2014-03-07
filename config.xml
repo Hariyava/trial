@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget id="com.hariyava.mobile" version="8.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Keerthi</name>
+    <name>trial</name>
     <description>
-      Sample app developed by keerthi
+      trial version
     </description>
     <author email="hariyava.gandhi@gmail.com" href="http://google.com">
         Keerthi
